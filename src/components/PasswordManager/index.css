@@ -1,0 +1,222 @@
+.password-manager-bg-container {
+  background-color: #c3caea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.password-manager-inner-container {
+  width: 90%;
+}
+
+.password-manager-logo {
+  margin-top: 32px;
+  height: 50px;
+  width: 160px;
+}
+
+.password-manager-top-container {
+  background-color: #7683cb;
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.add-new-password-content-container {
+  background-color: #5763a5;
+  height: 300px;
+  width: 500px;
+  border-radius: 12px;
+  padding: 14px;
+  margin-left: 32px;
+}
+
+.add-new-pass-image {
+  height: 400px;
+  width: 400px;
+}
+
+.add-new-pass-title {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+.input-image-content-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.input-image-container {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input-inside-image {
+  height: 20px;
+  width: 20px;
+}
+
+.top-container-input-element {
+  background-color: #ffffff;
+  height: 40px;
+  border-width: 0px;
+  border-left: 2px solid #b6c3ca;
+  outline: none;
+  font-family: Roboto;
+  width: 90%;
+  padding-left: 10px;
+}
+
+.pass-manager-add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 98%;
+}
+
+.pass-manager-add-btn {
+  border-width: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: Roboto;
+  height: 26px;
+  width: 60px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.password-manager-bottom-container {
+  background-color: #7683cb;
+  width: 100%;
+  min-height: 500px;
+  border-radius: 12px;
+  margin-top: 16px;
+  padding-left: 32px;
+}
+
+.your-pass-input-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-pass-title {
+  color: #ffffff;
+  font-family: Roboto;
+  padding-top: 16px;
+  font-size: 24px;
+}
+
+.icon-input-cont {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon-container {
+  background-color: #ffffff;
+  height: 30px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+}
+
+.search-icon-image {
+  height: 25px;
+  width: 25px;
+}
+
+.input-search-element {
+  height: 30px;
+  width: 200px;
+  border-width: 0px;
+  border-left: 1px solid #b6c3ca;
+  margin-right: 26px;
+  outline: none;
+  padding-left: 10px;
+  font-family: Roboto;
+}
+
+.bottom-container-hr {
+  width: 98%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.checkbox-first-container {
+  width: 97%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox-style {
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+  background-color: #0ea5e9;
+}
+
+.show-pass-text {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* -------------- */
+
+.pass-ul-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pass-count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container {
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  height: 20px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 16px;
+}
+
+.count-style {
+  font-family: Roboto;
+  color: #ffffff;
+}

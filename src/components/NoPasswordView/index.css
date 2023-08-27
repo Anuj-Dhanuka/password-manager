@@ -1,0 +1,19 @@
+.no-pass-view-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-pass-image {
+  height: 350px;
+  width: 500px;
+}
+
+.no-pass-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 36px;
+}
